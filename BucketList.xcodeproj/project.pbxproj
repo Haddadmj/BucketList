@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		116BB981275DE76A00B3ED00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB980275DE76A00B3ED00 /* AppDelegate.swift */; };
 		116BB983275DE76A00B3ED00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB982275DE76A00B3ED00 /* SceneDelegate.swift */; };
-		116BB985275DE76A00B3ED00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB984275DE76A00B3ED00 /* ViewController.swift */; };
+		116BB985275DE76A00B3ED00 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB984275DE76A00B3ED00 /* BucketListViewController.swift */; };
 		116BB988275DE76A00B3ED00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116BB986275DE76A00B3ED00 /* Main.storyboard */; };
 		116BB98A275DE76B00B3ED00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116BB989275DE76B00B3ED00 /* Assets.xcassets */; };
 		116BB98D275DE76B00B3ED00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116BB98B275DE76B00B3ED00 /* LaunchScreen.storyboard */; };
+		116BB997275DEAA200B3ED00 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB996275DEAA200B3ED00 /* AddItemTableViewController.swift */; };
+		116BB99D275DECAA00B3ED00 /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116BB99C275DECA900B3ED00 /* AddItemDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		116BB97D275DE76A00B3ED00 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116BB980275DE76A00B3ED00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116BB982275DE76A00B3ED00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		116BB984275DE76A00B3ED00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		116BB984275DE76A00B3ED00 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		116BB987275DE76A00B3ED00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		116BB989275DE76B00B3ED00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116BB98C275DE76B00B3ED00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116BB98E275DE76B00B3ED00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116BB996275DEAA200B3ED00 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		116BB99C275DECA900B3ED00 /* AddItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				116BB980275DE76A00B3ED00 /* AppDelegate.swift */,
 				116BB982275DE76A00B3ED00 /* SceneDelegate.swift */,
-				116BB984275DE76A00B3ED00 /* ViewController.swift */,
+				116BB984275DE76A00B3ED00 /* BucketListViewController.swift */,
 				116BB986275DE76A00B3ED00 /* Main.storyboard */,
+				116BB99C275DECA900B3ED00 /* AddItemDelegate.swift */,
+				116BB996275DEAA200B3ED00 /* AddItemTableViewController.swift */,
 				116BB989275DE76B00B3ED00 /* Assets.xcassets */,
 				116BB98B275DE76B00B3ED00 /* LaunchScreen.storyboard */,
 				116BB98E275DE76B00B3ED00 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116BB985275DE76A00B3ED00 /* ViewController.swift in Sources */,
+				116BB997275DEAA200B3ED00 /* AddItemTableViewController.swift in Sources */,
+				116BB99D275DECAA00B3ED00 /* AddItemDelegate.swift in Sources */,
+				116BB985275DE76A00B3ED00 /* BucketListViewController.swift in Sources */,
 				116BB981275DE76A00B3ED00 /* AppDelegate.swift in Sources */,
 				116BB983275DE76A00B3ED00 /* SceneDelegate.swift in Sources */,
 			);
